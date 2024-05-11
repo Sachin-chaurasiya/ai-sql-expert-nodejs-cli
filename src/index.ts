@@ -55,4 +55,7 @@ async function main() {
   }
 }
 
+process.stdout.write(
+  `Welcome to the SQL Expert. You can ask any SQL related questions and expert will help you out. Type "exit" to quit the program.\n\n`
+);
 main().catch(console.error);
